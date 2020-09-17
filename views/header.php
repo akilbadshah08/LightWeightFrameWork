@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title> Minimal Brand Portal | <?php echo $page ?> </title>
+	<title> LightWeightFrameWork | <?php echo $page ?> </title>
 	<meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
@@ -82,7 +82,7 @@
 				<div class="row">
 					<div class="col-6">
 						<div class="a-header-left">
-							<img src="assets/images/logo_inner.png">
+
 						</div>
 					</div><!-- end of col-6 -->
 
