@@ -1,9 +1,18 @@
 <?php 
 include "functions.php";
-$module=$_GET['module'];
-$page=$_GET['page'];
-$para1=isset($_GET['para1'])?$_GET['para1']:false;
-$para2=isset($_GET['para2'])?$_GET['para2']:false;
+
+require_once "controllers/core.php";
+
+$uriSegments = explode("/", parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH));
+//print_r($uriSegments);
+//die;
+include_once "controllers/".$uriSegments[2].".php";
+
+
+$module=$uriSegments[2];
+$page=$uriSegments[3];
+$para1=isset($uriSegments[4])?$uriSegments[4]:false;
+$para2=isset($uriSegments[5])?$uriSegments[5]:false;
 
 $class = $module;
 if(class_exists($class)){
