@@ -1,0 +1,668 @@
+
+.profile-form label, 
+.product-form label, 
+.order-form label, 
+.payment-form label, 
+.bank-form label {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.profile-form input.form-input, 
+.product-form input.form-input, 
+.order-form input.form-input, 
+.payment-form input.form-input, 
+.bank-form input.form-input {
+    color: #000;
+    font-weight: 700;
+}
+
+
+
+
+
+.main-section {
+    background-color: #fff;
+    height: 100vh;
+}
+
+/*********************/
+
+.aside-header {
+	background-color: #EBEBEB;
+	padding: 20px;
+}
+
+.a-header-left img {
+	width: 150px;
+	margin-left: 30px;
+}
+
+.a-header-right ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: right;
+}
+.a-header-right ul li {
+	display: inline-block;
+	text-decoration: none;
+	margin-left: auto;
+}
+.a-header-right ul li {
+
+}
+
+.dash-top-block {
+	background: #FAFEFF 0% 0% no-repeat padding-box;
+	box-shadow: 0px 4px 8px #00000029;
+	height: 120px;
+}
+
+.dash-top-block p {
+	color: #707070;
+	font-weight: 400;
+	margin-bottom: 5px;
+}
+
+.dash-top-block h6 {
+	color: #00292C;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.dash-top-block span {
+	color: #004F4B;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.dash-top-right {
+    padding-right: 100px;
+}
+
+.week-month .button-group-pills input {
+	display: none;
+}
+
+.week-month .button-group-pills .btn {
+	border-radius: 4px;
+    line-height: 1.2;
+    border-color: #004F4B;
+    background-color: #FFF;
+    color: #004f4b;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.week-month .button-group-pills .btn.active {
+	border-color: #004F4B;
+	background-color: #004F4B;
+	color: #FFF;
+	box-shadow: none;
+}
+
+.week-month .button-group-pills .btn:hover {
+	border-color: #004F4B;
+	background-color: #004F4B;
+	color: #FFF;
+}
+
+select.select-opt {
+    color: #fff;
+    cursor: pointer;
+    outline: 0;
+    background-color: #004f4b;
+    padding: 6px 0px 6px 22px;
+    margin-bottom: 0.5rem;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 4px;
+    border-color: #004f4b;
+    width: 100%;
+}
+
+select.select-opt::-ms-expand {
+	display: none;
+}
+
+.select {
+	overflow: hidden;
+	position: relative;
+}
+
+.select::after {
+	content: '';
+    position: absolute;
+    top: 11px;
+    height: 16px;
+    width: 22px;
+    right: 0;
+    background-color: #004f4b;
+    padding-right: 10px;
+    cursor: pointer;
+    background-image: url(../images/drp_down.png);
+    -webkit-transition: .25s all ease;
+    -o-transition: .25s all ease;
+    transition: .25s all ease;
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+
+.select:hover::after {
+  color: #f39c12;
+}
+
+
+.dash-graph-one p {
+	color: #707070;
+	font-weight: 600;
+	font-size: 14px;
+}
+
+.dash-graph-one {
+	padding: 20px 20px 40px 20px;
+	background: #FEFEFE;
+	box-shadow: 0px 4px 8px #00000029;
+	text-align: center;
+}
+
+/************************** Profile Tab Css ***********************/
+#profile .login-card-last button {
+	letter-spacing: 5px;
+}
+
+#profile {
+    padding: 0px 12px 40px 12px;
+}
+
+/************************* Product Tab Css ***********************/
+.product-top-left input {
+	width: 75%;
+    height: 50px;
+    padding: 10px 16px 10px 60px;
+    text-align: left;
+    background-color: #EBEBEB;
+    color: #8F8F8F;
+    font-size: 12px;
+    font-weight: 400;
+    position: relative;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    text-decoration: none;
+}
+
+.product-top-left span {
+	position: absolute;
+	left: 32px;
+	top: 15px;
+}
+
+.product-top-left span i.fa {
+	color: #212121;
+	font-size: 20px;
+}
+
+.product-top-right {
+    text-align: right;
+}
+
+.product-top-right button {
+	border-radius: 50px;
+	letter-spacing: 3px;
+	text-transform: capitalize;
+}
+
+.product-top-right button span {
+	margin-right: 15px;
+}
+
+.product-block-table {
+	box-shadow: 0px 4px 8px #00000029;
+}
+
+.product-block-table table thead {
+	background-color: #818181;
+}
+
+.product-block-table table thead tr th {
+	color: #fff;
+    padding: 16px 16px;
+    vertical-align: middle;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.product-block-table table tbody {
+	padding: 10px;
+}
+
+.product-block-table table tbody tr {
+	border-left: 8px solid transparent;
+	border-bottom: 1px solid #eaeaea;
+	opacity: 0.8;
+}
+
+.product-block-table table tbody tr:last-child {
+	border-bottom: none;
+}
+
+.product-block-table table tbody tr:hover {
+	box-shadow: 0px 4px 8px #00000029;
+    border-left: 8px solid #004F4B;
+    opacity: 1;
+}
+
+.product-block-table table tbody tr td {
+	color: #000;
+	font-weight: 600;
+	text-align: left;
+	padding: 16px 16px; 
+}
+
+
+.product-block-table table .action ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.product-block-table table .action ul li {
+	display: inline-block;
+	margin: 0px 5px;
+}
+
+.product-block-table table .action ul li i.fa {
+	font-size: 20px;
+	color: #000;
+}
+
+select.status-select-opt {
+    color: #fff;
+    cursor: pointer;
+    outline: 0;
+    background-color: #004f4b;
+    padding: 6px 0px 6px 22px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 40px;
+    border-color: #004f4b;
+    width: 60%;
+    opacity: 1;
+}
+
+select.status-select-opt::-ms-expand {
+	display: none;
+}
+
+table .status-select {
+	overflow: hidden;
+	position: relative;
+}
+
+.status-select::after {
+	content: '\25BE';
+    position: absolute;
+    top: 4px;
+    height: 27px;
+    overflow: hidden;
+    border-radius: 100px;
+    width: 27px;
+    color: #fff;
+    font-size: 24px;
+    left: 97px;
+    background-color: #004f4b;
+    cursor: pointer;
+    -webkit-transition: .25s all ease;
+    -o-transition: .25s all ease;
+    transition: .25s all ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.status-select:hover::after {
+  color: #f39c12;
+}
+
+.product-ship-drop {
+    position: relative;
+}
+
+.product-ship-arrow {
+    position: absolute;
+    bottom: 15px;
+    overflow: hidden;
+    color: #000;
+    font-size: 24px;
+    right: 5px;
+    width: 40px;
+    text-align: center;
+    height: 20px;
+    background-color: #ffffff;
+    cursor: pointer;
+    -webkit-transition: .25s all ease;
+    -o-transition: .25s all ease;
+    transition: .25s all ease;
+}
+
+.product-ship-arrow i.fa {
+    vertical-align: super;
+}
+
+.product-ship-status {
+    position: absolute;
+    bottom: 15px;
+    overflow: hidden;
+    color: #000;
+    font-size: 24px;
+    right: 18px;
+    width: 40px;
+    text-align: center;
+    height: 20px;
+    background-color: #ffffff;
+    cursor: pointer;
+    -webkit-transition: .25s all ease;
+    -o-transition: .25s all ease;
+    transition: .25s all ease;
+}
+
+.product-ship-status i.fa {
+    vertical-align: super;
+}
+
+
+/*********************** Orders Tab Css ******************/
+#orders select.status-select-opt {
+    color: #fff;
+    cursor: pointer;
+    outline: 0;
+    background-color: #004f4b;
+    padding: 6px 0px 6px 22px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 40px;
+    border-color: #004f4b;
+    width: 60%;
+    opacity: 1;
+}
+
+#orders select.status-select-opt::-ms-expand {
+    display: none;
+}
+
+#orders table .status-select {
+    overflow: hidden;
+    position: relative;
+}
+
+#orders .status-select::after {
+    content: '\25BE';
+    position: absolute;
+    top: 4px;
+    height: 27px;
+    overflow: hidden;
+    border-radius: 100px;
+    width: 27px;
+    color: #fff;
+    font-size: 24px;
+    left: 92px;
+    background-color: #004f4b;
+    cursor: pointer;
+    -webkit-transition: .25s all ease;
+    -o-transition: .25s all ease;
+    transition: .25s all ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#orders .status-select:hover::after {
+  color: #f39c12;
+}
+
+.order-form .login-card-last button {
+    width: 15%;
+}
+
+.order-ship-drop {
+    position: relative;
+}
+
+.order-ship-arrow {
+    position: absolute;
+    bottom: 15px;
+    overflow: hidden;
+    color: #000;
+    font-size: 24px;
+    right: 18px;
+    width: 40px;
+    text-align: center;
+    height: 20px;
+    background-color: #ffffff;
+    cursor: pointer;
+    -webkit-transition: .25s all ease;
+    -o-transition: .25s all ease;
+    transition: .25s all ease;}
+
+.order-ship-arrow i.fa {
+    vertical-align: super;
+}
+
+/*********************** Payment Tab Css ******************/
+#payments .payment-btn {
+	padding: 10px 30px;
+	border-radius: 50px;
+    text-transform: capitalize;
+}
+
+.payment-form .login-card-last button {
+    letter-spacing: 2px;
+}
+
+/*********************** Bank Details Tab Css ******************/
+.bank-heading {
+    font-weight: 600;
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+/*************** Media Query *************/
+
+@media screen and (max-width: 1440px) {
+
+    .dash-top-block h6 {
+        font-size: 18px;
+    }
+
+    #orders select.status-select-opt {
+        width: 100%;
+    }
+
+    select.status-select-opt {
+        width: 100%;
+    }
+
+    .status-select::after {
+        left: 106px;
+    }
+
+    #orders .status-select::after {
+        left: 102px;
+    }
+
+    .dash-top-right {
+        padding-right: 0px; 
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    #orders .status-select::after {
+        left: 92px;
+    }
+
+    .status-select::after {
+        left: 96px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    select.status-select-opt {
+        width: 100%;
+    }
+
+    .status-select::after {
+        left: 86px;
+    }
+
+    #orders select.status-select-opt {
+        width: 100%;
+    }
+
+    #orders .status-select::after {
+        left: 80px;
+    }
+
+    .dash-top-block h6 {
+        font-size: 18px;
+    }
+
+    .dash-top-block span {
+        font-size: 10px;
+    }
+
+    .dash-top-right {
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    .product-block-table table tbody tr td {
+        padding: 10px 60px;
+    }
+
+    .product-block-table table tbody tr td.action { 
+        padding: 10px 0px 10px 35px;
+    }
+    
+    .product-block-table table thead tr th {
+        padding: 10px 60px;
+    }
+
+    select.status-select-opt {
+        width: 100%;
+    }
+
+    .status-select::after {
+        left: 100px;
+    }
+
+    #orders select.status-select-opt {
+        width: 100%;
+    }
+
+    .product-block-table table tbody tr th.res-status, 
+    .product-block-table table tbody tr td.res-status {
+        padding: 10px 17px;
+    }
+
+    #orders .status-select::after {
+        left: 97px;
+    }
+
+    .dash-top-right {
+        padding-right: 130px;
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .dash-top-block {
+        height: 140px;
+    }
+
+    .dash-top-block h6 {
+        font-size: 26px;
+    }
+
+    .button-wrapper p.label {
+        height: 100px;
+        padding-right: 40px;
+    }
+
+    .product-top-right {
+        text-align: left;
+    }
+
+    .product-block-table table tbody tr td {
+        padding: 10px 60px;
+    }
+
+    .product-block-table table tbody tr td.action { 
+        padding: 10px 0px 10px 35px;
+    }
+
+    .product-block-table table thead tr th {
+        padding: 10px 60px;
+    }
+
+    select.status-select-opt {
+        width: 100%;
+    }
+
+    .status-select::after {
+        left: 100px;
+    }
+
+    #orders select.status-select-opt {
+        width: 100%;
+    }
+
+    .product-block-table table tbody tr th.res-status, 
+    .product-block-table table tbody tr td.res-status {
+        padding: 10px 17px;
+    }
+
+    #orders .status-select::after {
+        left: 97px;
+    }
+
+    .tab {
+        width: 210px;
+    }
+
+    .dash-top-right {
+        padding-right: 50px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

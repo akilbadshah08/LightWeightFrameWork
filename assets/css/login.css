@@ -1,0 +1,194 @@
+
+.login-body {
+	display: flex;
+    align-items: center;
+    height: 60vh;
+    position: relative;
+}
+
+.login-background {
+	background-image: url(../images/login-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: calc(100% - 290px);
+    height: 88vh;
+    background-position: center left;
+}
+
+.login-card {
+	position: absolute;
+    right: 0;
+    top: 29%;
+    width: 45%;
+    background-color: #fff;
+    padding: 20px 25px;
+}
+
+form.padding-lr {
+	width: 80%;
+	margin: 40px auto 0 auto;
+}
+
+.login-user ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.login-user ul li {
+	text-decoration: none;
+	margin-bottom: 10px;
+}
+
+.login-user ul li img {
+	width: 16%;
+}
+
+.login-user ul li p {
+	font-size: 18px;
+	font-weight: 600;
+	margin-top: 0;
+}
+
+.login-forgot a {
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.login-card-last p {
+	font-size: 14px; 
+	font-weight: 600;
+	margin-top: 8px;
+}
+
+.login-forgot {
+	padding-top: 6px;
+}
+
+
+
+
+
+/********************* Forgot Password ***************/
+.forgot-card {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    top: 33%;
+	position: absolute;
+    right: 0;
+    width: 45%;
+    background-color: #fff;
+    padding: 20px 25px;
+}
+
+.login-card {
+}
+
+.card-heading h4 {
+	font-size: 16px;
+	font-weight: 700;
+}
+
+
+
+
+/****************** Media Qurry *****************/
+@media screen and (max-width: 1440px) {
+	.login-background {
+		height: 91vh;
+	}
+
+	.login-card {
+		top: 29%;
+	}
+
+	.forgot-card {
+		top: 33%;
+	}
+}
+
+@media screen and (max-width: 1280px) {
+	.login-background {
+	    height: 90vh;
+	}
+
+	.login-card {
+	    top: 26%;
+	}
+
+	.forgot-card {
+	    top: 33%;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.login-body {
+		height: 94vh;
+	}
+
+	.login-background {
+		width: 100%;
+    	background-position: center center;
+	}
+
+	.login-card {
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+	    width: 53%;
+	    padding: 35px 25px;
+	}
+
+	.forgot-card {
+		left: 0;
+	    right: 0;
+	    margin: 0 auto;
+	    width: 53%;
+	    padding: 35px 25px;
+	    top: 30%;
+	}
+}
+
+/*@media (min-width: 768px) and (max-width: 1024px) {
+	.login-body {
+	    height: 90vh;
+	}
+
+	.login-card {
+	    top: 18%;
+	}
+}
+*/
+@media screen and (max-width: 768px) {
+	.login-body {
+	    height: 91vh;
+	}
+
+	.login-card {
+	    width: 70%;
+	}
+
+	.forgot-card {
+	    width: 70%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

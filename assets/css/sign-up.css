@@ -1,0 +1,116 @@
+
+
+
+.sign-background {
+	background-image: url('../images/signup-bg.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 35px 10px;
+}
+
+.signup-card {
+	width: 95%;
+	margin: 0 auto;
+	padding: 40px;
+}
+
+.signup-detail h4 {
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.signup-detail p {
+	font-size: 14px;
+    width: 50%;
+    margin: 0 auto;
+    line-height: 25px;
+    padding: 0px 55px;
+}
+
+.button-wrapper {
+	position: relative;
+	text-align: left;
+}
+
+.button-wrapper p.label {
+	display: inline-block;
+	width: 100%;
+	cursor: pointer;
+	margin: 0;
+	height: 100px;
+	padding-right: 150px;
+}
+
+.button-wrapper span {
+	position: absolute;
+	right: 15px;
+	top: 15px;
+}
+
+.button-wrapper span img {
+	width: 40px;
+}
+
+#upload {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+	.signup-detail p {
+		width: 100%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,193 @@
+
+
+
+.tab {
+	float: left;
+	background-color: #212121;
+	width: 230px;
+	height: calc(100vh - 0px);
+	position: relative;
+}
+
+.tab button {
+	display: block;
+	background-color: inherit;
+	color: #fff;
+	width: 100%;
+	border-right: 5px solid transparent;
+	border-top: none;
+	border-bottom: none;
+	border-left: none;
+	outline: none;
+	text-align: left;
+	cursor: pointer;
+	transition: 0.3s;
+	padding: 10px 10px 10px 20px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.tab button:hover {
+	color: #CE4239;
+	background-color: #fff;
+	border-right: 5px solid #CE4239;
+}
+
+.tab button.active {
+	color: #CE4239;
+	background-color: #fff;
+	border-right: 5px solid #CE4239;
+}
+
+.tab button.tablinks span img {
+	padding-right: 16px;
+	width: 28px;
+}
+
+.tab button.tablinks span .normal {
+	display: block;
+}
+
+.tab button.tablinks:hover span .normal {
+	display: none;
+}
+
+.tab button.tablinks span .on-hover {
+	display: none;
+}
+
+.tab button.tablinks:hover span .on-hover {
+	display: block;
+}
+
+
+.tab button.active span .normal {
+	display: none;
+}
+
+.tab button.active:hover span .normal {
+	display: none;
+}
+
+.tab button.active span .on-hover {
+	display: block;
+}
+
+.tab button.active:hover span .on-hover {
+	display: block;
+}
+
+.tabcontent {
+	float: left;
+	padding: 0px 12px;
+	width: calc(100% - 230px);
+	background-color: #fff;
+}
+
+
+/*************** Beautification Css **************/
+.sidebar-head {
+	padding: 50px 10px 20px 10px;
+}
+
+.sidebar-head .brand-des {
+	position: relative;
+	padding-left: 50px;
+}
+
+.sidebar-head .brand-des .cloth-logo {
+	position: absolute;
+	left: 0px;
+	top: -20px;
+}
+
+.sidebar-head .brand-des .cloth-logo img {
+	width: 60px;
+}
+
+.sidebar-head h4.brand-name {
+	color: #fff;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+.sidebar-head p.user-name {
+	font-size: 14px;
+	color: #fff;
+}
+
+.logout-btn {
+	position: absolute;
+	bottom: 40px;
+	right: 0px;
+}
+
+
+.logout-btn a.log-out {
+	background-color: #CE4239;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px 0px 0px 20px;
+    padding: 7px 10px 7px 16px;
+    color: #fff;
+    font-weight: 600;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+.logout-btn.navigation img {
+	width: 18px;
+	vertical-align: middle;
+}
+
+.logout-btn.navigation .logout {
+	position: absolute;
+    right: 9px;
+    top: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    overflow: hidden;
+    opacity: 0;
+    transition: opacity .45s;
+    -webkit-transition: opacity .35s;
+}
+
+.logout-btn.navigation .button {
+	float: right;
+    transition: width .35s;
+    -webkit-transition: width .35s;
+    overflow: hidden;
+}
+
+.logout-btn.navigation a:hover {
+  width: 100px;
+}
+
+.logout-btn.navigation a:hover .logout{
+  opacity: .9;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,151 @@
+
+@import url(http://db.onlinewebfonts.com/c/af1f9cf6d51df55b85e1b496776585c4?family=Brandon+Grotesque+Regular);
+
+@font-face {
+	font-family: "Brandon Grotesque Regular"; 
+	src: url("http://db.onlinewebfonts.com/t/af1f9cf6d51df55b85e1b496776585c4.eot"); 
+	src: url("http://db.onlinewebfonts.com/t/af1f9cf6d51df55b85e1b496776585c4.eot?#iefix") format("embedded-opentype"), 
+	url("http://db.onlinewebfonts.com/t/af1f9cf6d51df55b85e1b496776585c4.woff2") format("woff2"), 
+	url("http://db.onlinewebfonts.com/t/af1f9cf6d51df55b85e1b496776585c4.woff") format("woff"), 
+	url("http://db.onlinewebfonts.com/t/af1f9cf6d51df55b85e1b496776585c4.ttf") format("truetype"), 
+	url("http://db.onlinewebfonts.com/t/af1f9cf6d51df55b85e1b496776585c4.svg#Brandon Grotesque Regular") format("svg"); 
+}
+
+html, body {
+	font-family: "Brandon Grotesque Regular" !important;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none !important;
+	outline: none !important;
+	font-family: "Brandon Grotesque Regular" !important;
+}
+
+button {
+	text-decoration: none !important;
+	outline: none !important;
+	font-family: "Brandon Grotesque Regular" !important;
+}
+
+input:focus,
+button:focus,
+.form-control:focus,
+.form-input:focus {
+	outline: none;
+	box-shadow: none;
+	font-family: "Brandon Grotesque Regular" !important;
+}
+
+.white {
+	color: #fff;
+}
+
+.black {
+	color: #000;
+}
+
+.red {
+	color: #CE4239 !important;
+}
+
+.dark-grey {
+	color: #212121;
+}
+
+.light-grey {
+	color: #727272;
+}
+
+.green-color {
+	color: #004F4B;
+}
+
+.white-bg {
+	background-color: #fff;
+}
+
+.green-bg {
+	background-color: #004F4B;
+}
+
+.dashboard-bg {
+	background-color: #212121;
+}
+
+.box {
+	box-shadow: 0px 3px 6px #00000029;
+	border: 1px solid #FFDBCE;
+	border-radius: 20px;
+}
+
+
+.btn-green {
+	background-color: #004F4B;
+	border: 2px solid #fff;
+	border-radius: 2px;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 600;
+	text-align: center;
+	padding: 14px 16px;
+	outline: none;
+	text-decoration: none;
+}
+
+.btn-green:hover {
+	background-color: #fff;
+	transition: ease-in-out 0.7s;
+	color: #004F4B;
+	border: 2px solid #004F4B;
+}
+
+.btn-green:focus {
+	outline: none;
+}
+
+label {
+	color: #212121;
+	font-size: 14px;
+	font-weight: 600;
+	display: block;
+	text-align: left;
+	padding-left: 30px;
+}
+
+.form-input {
+	box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #FFDBCE;
+    border-radius: 12px;
+    color: #8F8F8F;
+    font-size: 12px;
+    padding: 16px 30px;
+    width: 100%;
+    font-weight: 400;
+    outline: none;
+    text-decoration: none;	
+}
+
+.border-r50 {
+	border-radius: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
