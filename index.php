@@ -16,15 +16,15 @@ $para2=isset($uriSegments[5])?$uriSegments[5]:false;
 
 $class = $module;
 if(class_exists($class)){
-$con=new $class();	
+	$con=new $class();	
 } else {
 	http_response_code(404);
 	die;
 }
 
 if(method_exists($con,$page)){
-$fun=$page;
-$con->$fun($para1,$para2);
+	$fun=$page;
+	$con->$fun($para1,$para2);
 } else{
 	http_response_code(404);
 	die;
